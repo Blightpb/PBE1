@@ -14,11 +14,11 @@ public class Pokémon {
 		
 	}
 	
-	public Pokémon (String pNome, String pTipo, int pNivel, int pHp) {
-		this.Nome = pNome;
-		this.Tipo = pTipo;
-		this.Nivel = pNivel;
-		this.Hp = pHp;
+	public Pokémon (String Nome, String Tipo, int Nivel, int Hp) {
+		this.Nome = Nome;
+		this.Tipo = Tipo;
+		this.Nivel = Nivel;
+		this.Hp = Hp;
 	}
 	
 	//métodos
