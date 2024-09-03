@@ -26,18 +26,18 @@ public class ClasseAnimal {
 			System.out.println(this.atributoNome + " ta gorda, precisa se exercitar");
 		}
 		else {
-			this.atributoPeso -= 10;  
+			this.atributoPeso += 10;  
 		}
-		this.atributoPeso -= 10;
+		this.atributoPeso += 10;
 	}
 	public void marchaAtletica() {
 		if (this.atributoPeso <= 3000) {
 			System.out.println(this.atributoNome + " ta muito magra, bora comer");
 		}
 		else {
-		    this.atributoPeso += 10;
+		    this.atributoPeso -= 10;
 		}
-		this.atributoPeso += 10;
+		this.atributoPeso -= 10;
 	}
 	public void exibirInfo() {
 		System.out.println("nome: " + this.atributoNome);
